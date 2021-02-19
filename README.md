@@ -20,8 +20,6 @@ To Do's
 
 PROJECT#3 MAX2871 Synthesizer Tests 24June2020 WN2A
 
-Notes:
-
    The MAX2871 does give stable output measured on my Frequency Counter (23.5 to 500MHz+) and also viewed on an old HP8558B Spectrum Analyzer to over 1500 MHz. Power was about +3dBm average. Spurious could not be measured accurately, due to equipment limitations, but looks better than -60 dBc.
       
    Both Laptops (Dell Mini Netbook and MacBook Pro) ran FreeBasic Host programs on Puppy Linux Slacko version 6.3.2. Both Laptops could deliver 115200 Baud Commands via the USB bus, with or without any delay added in the Host program. The Host program/Laptops showed no sign of breakup, and the Arduino Rx LED stays lit, regardless of the delay setting from 0 to 10 milliseconds. My suspicion is with my Arduino Sketch MAX2871_Load_Word_115200_1.ino (code snippet below):
